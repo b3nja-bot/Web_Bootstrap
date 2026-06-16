@@ -22,3 +22,12 @@ html {
   bottom: 20px;
   right: 20px;
 }
+
+ .hero {
+            background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+                        url('https://picsum.photos/1200/600');
+            background-size: cover;
+            background-position: center;
+            min-height: 80vh;
+            color: white;
+        }
