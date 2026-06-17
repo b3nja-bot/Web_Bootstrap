@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto Bootstrap</title>
-
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,59 +11,50 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body id="inicio">
-    <!-- Roger-navbar -->
-
+    <!-- Roger - navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Mi Sitio</a>
-
-        <div class="navbar-collapse">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#inicio">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#galeria">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <!-- Andres-Hero section -->
-
+    <!-- Andres - Hero section -->
     <section class="hero d-flex align-items-center text-center">
       <div class="container">
         <h1 class="display-3 fw-bold">Bienvenido a Nuestro Sitio</h1>
         <p class="lead">Diseño moderno con Bootstrap 5</p>
-
-        <a href="#servicios" class="btn btn-primary btn-lg me-2">
-          Ver Servicios
-        </a>
-
-        <a href="#contacto" class="btn btn-outline-light btn-lg"> Contactar </a>
+        <a href="#servicios" class="btn btn-primary btn-lg me-2"
+          >Ver Servicios</a
+        >
+        <a href="#contacto" class="btn btn-outline-light btn-lg">Contactar</a>
       </div>
     </section>
 
-    <!-- David-tarjetas -->
-
+    <!-- David - Tarjetas -->
     <section id="servicios" class="py-5">
       <div class="container">
         <h2 class="text-center mb-5">Nuestros Servicios</h2>
-
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card h-100">
               <img
-                src="https://picsum.photos/400/250?1"
+                src="https://picsum.photos/400/250?random=1"
                 class="card-img-top"
-                alt=""
+                alt="Desarrollo Web"
               />
               <div class="card-body">
                 <h5 class="card-title">Desarrollo Web</h5>
@@ -77,9 +66,9 @@
           <div class="col-md-4">
             <div class="card h-100">
               <img
-                src="https://picsum.photos/400/250?2"
+                src="https://picsum.photos/400/250?random=2"
                 class="card-img-top"
-                alt=""
+                alt="Marketing Digital"
               />
               <div class="card-body">
                 <h5 class="card-title">Marketing Digital</h5>
@@ -91,9 +80,9 @@
           <div class="col-md-4">
             <div class="card h-100">
               <img
-                src="https://picsum.photos/400/250?3"
+                src="https://picsum.photos/400/250?random=3"
                 class="card-img-top"
-                alt=""
+                alt="Diseño UX/UI"
               />
               <div class="card-body">
                 <h5 class="card-title">Diseño UX/UI</h5>
@@ -105,8 +94,7 @@
       </div>
     </section>
 
-    <!-- Sebas-formulario -->
-
+    <!-- Sebas - Formulario -->
     <section id="contacto" class="bg-light py-5">
       <div class="container">
         <h2 class="text-center mb-4">Contáctanos</h2>
@@ -116,38 +104,23 @@
             <label class="form-label">Nombre</label>
             <input type="text" class="form-control" required />
           </div>
-
           <div class="mb-3">
             <label class="form-label">Correo</label>
             <input type="email" class="form-control" required />
           </div>
-
           <div class="mb-3">
             <label class="form-label">Mensaje</label>
-            <textarea class="form-control" rows="4"></textarea>
+            <textarea class="form-control"></textarea>
           </div>
-
           <div class="alert alert-info">
             Complete todos los campos antes de enviar.
           </div>
-
           <button class="btn btn-primary">Enviar</button>
         </form>
-
-        <!-- Simulación visual de Modal -->
-        <div class="card mt-5 shadow">
-          <div class="card-header bg-primary text-white">
-            Información Adicional
-          </div>
-          <div class="card-body">
-            Este bloque representa un modal estático (sin JavaScript).
-          </div>
-        </div>
       </div>
     </section>
 
-    <!-- Benja-multimedia -->
-
+    <!-- Benja - Multimedia -->
     <section id="galeria" class="py-5">
       <div class="container">
         <h2 class="text-center mb-5">Galería Multimedia</h2>
@@ -155,45 +128,34 @@
         <div class="row g-3 mb-5">
           <div class="col-md-4">
             <img
-              src="https://picsum.photos/500/300?4"
+              src="https://picsum.photos/500/300?random=4"
               class="img-fluid rounded"
+              alt=""
             />
           </div>
-
           <div class="col-md-4">
             <img
-              src="https://picsum.photos/500/300?5"
+              src="https://picsum.photos/500/300?random=5"
               class="img-fluid rounded"
+              alt=""
             />
           </div>
-
           <div class="col-md-4">
             <img
-              src="https://picsum.photos/500/300?6"
+              src="https://picsum.photos/500/300?random=6"
               class="img-fluid rounded"
+              alt=""
             />
           </div>
         </div>
 
         <div class="ratio ratio-16x9 mb-5">
           <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/fH9E8Rsx6lI?si=dTlLXCPZJX_u_Qf_"
+            src="https://www.youtube.com/embed/fH9E8Rsx6lI"
             title="YouTube video player"
-            frameborder="0"
-            allow="
-              accelerometer;
-              autoplay;
-              clipboard-write;
-              encrypted-media;
-              gyroscope;
-              picture-in-picture;
-              web-share;
-            "
-            referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
-          ></iframe>
+          >
+          </iframe>
         </div>
 
         <div class="table-responsive mb-5">
@@ -219,26 +181,14 @@
             </tbody>
           </table>
         </div>
-
-        <div class="testimonial p-4 rounded">
-          <p>"Excelente servicio y atención al cliente."</p>
-          <strong>- Cliente Satisfecho</strong>
-        </div>
       </div>
     </section>
 
-    <!-- Esteban-Footer -->
-
-    <div class="alert alert-warning text-center m-0">
-      Sistema en mantenimiento programado.
-    </div>
-
+    <!-- Esteban - Footer -->
     <footer class="bg-dark text-white py-4">
       <div class="container text-center">
         <h5>Mi Empresa</h5>
-
         <p>© 2026 Todos los derechos reservados.</p>
-
         <div>
           <a href="#" class="text-white me-3">Facebook</a>
           <a href="#" class="text-white me-3">Instagram</a>
@@ -247,6 +197,6 @@
       </div>
     </footer>
 
-    <a href="#inicio" class="btn btn-primary back-top"> ↑ </a>
+    <a href="#inicio" class="btn btn-primary back-top">↑</a>
   </body>
 </html>
